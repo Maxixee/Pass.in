@@ -1,4 +1,4 @@
-CREATE TABLE "check_ins" (
+CREATE TABLE check_ins (
                              id INTEGER NOT NULL PRIMARY KEY IDENTITY,
                              created_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
                              attendeeId VARCHAR(255) NOT NULL,
