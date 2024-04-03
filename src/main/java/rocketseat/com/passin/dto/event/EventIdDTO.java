@@ -1,2 +1,4 @@
-package rocketseat.com.passin.dto.event;public record EventIdDTO() {
+package rocketseat.com.passin.dto.event;
+
+public record EventIdDTO(String eventId) {
 }
